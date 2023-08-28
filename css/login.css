@@ -20,6 +20,8 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
+/* TELA DE LOGIN */
+
 .container1 {
     display: flex;
     align-items: center;
@@ -30,23 +32,24 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
+/*  */
+
+/* IMAGEM COMPLEMENTAR */
+
 .container2 {
+    background-color: #DB4B90;
     display: flex;
-    background: linear-gradient(180deg, rgba(219, 75, 139, 1) 0%, rgba(255, 255, 255, 0.474) 25%),
-        url("https://img.elo7.com.br/product/original/43A1E20/bone-viseira-de-croche-para-pet-cachorro-gato-modelo-ayrton-croche.jpg");
+    background-image: url('./imgs/login/fundoCachorro.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 50%;
     height: 100%;
 }
-.span_woofjoy{
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 50px;
-    margin-top: 20px;
-}
+
+/*  */
+
+
 
 
 
@@ -97,29 +100,37 @@ main {
 }
 
 
-.span_botao_voltar {
+.div_botao_voltar{
+    display: flex;
+    margin-bottom: -10vh;
+    margin-left: -40vw;
+
+}
+
+.button_botao_voltar {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-   
-    
+    cursor: pointer;
     margin-left: -80%;
     margin-bottom: -70px;
 }
 
 .img_botao_voltar {
-    background-color: #DB4B90;
+
     width: 26px;
-    margin-right: 8px
+    margin-right: 5px;
+    margin-top: -10px;
 
 }
-.a_voltar{
-    margin-bottom: 10px;
-}
 
 
 
-
+/* TAGS PURAS */
 
 input {
     outline: none;
@@ -136,7 +147,8 @@ input {
     transition: 0.3s;
 
 }
-input:hover{
+
+input:hover {
     background-color: #ffffff;
     box-shadow: #DB4B90 1px 4px 8px;
     transition: 0.2s;
@@ -151,34 +163,12 @@ label {
 
 a {
     color: #DB4B90;
-
+    cursor: pointer;
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline; 
-}
-
-button{transition: 0.3s;}
-button:hover{
-    background-color: #E5E5E5;
-    color: #DB4B90;
-    box-shadow:#DB4B90 1px 4px 8px;
-    transition: 0.2s;
-   
-}
-
-/* ANIMAÇÃO DA PÁGINA */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 
-main {
-    opacity: 0; 
-    animation: fadeIn 1s ease-in-out forwards; 
+
+button {
+    transition: 0.3s;
 }
