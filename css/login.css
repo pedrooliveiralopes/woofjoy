@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 1360px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container2 {
+    display: flex;
+    background: linear-gradient(180deg, rgba(219, 75, 139, 1) 0%, rgba(255, 255, 255, 0.474) 25%),
+        url("https://img.elo7.com.br/product/original/43A1E20/bone-viseira-de-croche-para-pet-cachorro-gato-modelo-ayrton-croche.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 100%;
+}
+.span_woofjoy{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+.span_bem_vindo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.div_mensagem_erro {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: medium;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 467px;
+    height: 55px;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: #FFDEDF;
+
+}
+
+.button_entrar {
+
+    background-color: #DB4B90;
+    border-radius: 30px;
+    width: 249px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.span_cadastrase {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.a_cadastrase {
+    font-size: 18px;
+    font-weight: mixed;
+    color: #DB4B90;
+}
+
+
+.span_botao_voltar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+    margin-left: -80%;
+    margin-bottom: -70px;
+}
+
+.img_botao_voltar {
+    background-color: #DB4B90;
+    width: 26px;
+    margin-right: 8px
+
+}
+.a_voltar{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+input {
+    outline: none;
+    width: 467px;
+    height: 47px;
+    background-color: #E5E5E5;
+    border-color: #DB4B90;
+    border-style: groove;
+    border-width: 3px;
+    box-sizing: border-box;
+    box-shadow: rgb(142, 138, 138) 1px 4px 8px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    transition: 0.3s;
+
+}
+input:hover{
+    background-color: #ffffff;
+    box-shadow: #DB4B90 1px 4px 8px;
+    transition: 0.2s;
+}
+
+label {
+    font-size: 22px;
+    font-weight: medium;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #DB4B90;
+
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline; 
+}
+
+button{transition: 0.3s;}
+button:hover{
+    background-color: #E5E5E5;
+    color: #DB4B90;
+    box-shadow:#DB4B90 1px 4px 8px;
+    transition: 0.2s;
+   
+}
+
+/* ANIMAÇÃO DA PÁGINA */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+main {
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; 
+}
