@@ -25,19 +25,19 @@ main {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     height: 90%;
     background-color: rgb(255, 255, 255);
 }
 
 .container2 {
     display: flex;
-    background: linear-gradient(180deg, rgba(219, 75, 139, 1) 0%, rgba(236, 236, 236, 0.474) 45%),
+    background: linear-gradient(180deg, rgba(219, 75, 139, 1) 0%, rgba(255, 255, 255, 0.474) 25%),
         url("https://img.elo7.com.br/product/original/43A1E20/bone-viseira-de-croche-para-pet-cachorro-gato-modelo-ayrton-croche.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 .span_woofjoy{
@@ -59,7 +59,7 @@ main {
     margin-top: 20px;
     font-size: 16px;
     font-weight: medium;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 467px;
