@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sessionImg {
+    width: 35.2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    background-image: url(./imgs/Group\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.containerText {
+    margin-bottom: 17px;
+}
+
+.text {
+    color: rgba(245, 245, 245, 1);
+    margin: 0 51px;
+}
+
+.containerLogo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo {
+    margin-right: 12px;
+    margin-bottom: 27px;
+}
+
+.campoTitlulo {
+    margin: 41px 0 18px 81px;
+    font-size: 32px;
+    color: rgba(219, 75, 144, 1);
+}
+
+.sessionForm {
+    width: 64.8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.camposJuntos {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.campoSozinho {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+}
+
+
+.form {
+    height: 74%;
+
+}
+
+.campoForm {
+    display: flex;
+    align-items: start;
+    justify-self: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.campoForm label {
+    height: 42.6%;
+
+}
+
+.inputEmail {
+    width: 705px;
+}
+
+.inputOutros {
+    width: 270px
+}
+
+.campoForm input {
+    height: 57.4%;
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+    overflow: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.buttonForm {
+    border: none;
+    border-radius: 30px;
+    padding: 3px 75px;
+    background-color:
+        rgba(219, 75, 144, 1);
+    color:
+        rgba(245, 245, 245, 1);
+}
+
+.linkForm {
+    color: rgba(219, 75, 144, 1);
+    text-decoration: none;
+}
+
+
+
+.campoCadastre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.buttonSair {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(219, 75, 144)
+}
+
+
+
+
+.menssagemErro {
+    margin-top: 5px;
+    color: rgba(219, 75, 144, 1);
+    font-size: 16px;
+    font-weight: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
