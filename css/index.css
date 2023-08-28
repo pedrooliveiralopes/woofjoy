@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Nunito:wght@200;400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-color:#ffffff;
+}
+
+.cabecalho{
+    background-color: #ffffff;
+}
+
+.cabecalho-menu{/*clase pai*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.logo-img-navbar{
+    height: 68px;
+}
+
+.menu-navbar{
+    display: flex;
+    gap: 35px;
+
+}
+
+.menu-navbar a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #303030;
+    font-weight: 500;
+    font-size: 20px;   
+}
+
+.menu-item-login-cadastro{
+    display: flex;
+    gap: 35px;
+}
+.menu-item-login-cadastro a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #303030;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.conteudo{
+margin-bottom: 30px;
+}
+
+.banner{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.banner-texto-apresentacao{
+   display: flex; 
+   flex-direction: column;
+   gap: 10px;
+}
+
+.rosa{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#DB4B90;
+}
+.texto-preto{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #303030;
+}
+
+.texto-rosa{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #DB4B90;
+}
+
+.texto-menor{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#303030;
+}
+
+.button-inicio{
+    display: flex;
+}
+
+
+.button{
+    background-color: #DB4B90;
+    width: 154px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img-inicio-pata{
+    height: 80%;
+}
+
+.servicos{
+    padding: auto;
+    margin-top: 40px;
+    height: 778px;
+    background-color:#ffffff;
+    align-items: center;
+
+}
+.servicos-texto{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.servicos-img-e-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sercicos-img-principal{
+    height: 100px;
+}
+
+.servicos-texto h1{
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #303030;
+}
+.servicos-texto p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #303030;
+}
+.servico-texto-img-conteudo{
+    height: 270px;
+    align-items: center;
+}
+
+.servicos-informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+.texto-servicos-informacoes{
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #303030;
+}
+.servicos-agenda-seguranca-doacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.agenda{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center
+}
+.seguranca{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center
+}
+.doacao{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.icon-agenda{
+    width: 31.304px;
+    height: 34.087px;
+}
+.icon-seguranca{
+    width: 31.304px;
+    height: 34.087px; 
+}
+
+.icon-doacao{
+    width: 31.304px;
+    height: 34.087px;
+}
+
+.servico-titulo-agenda{
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color:#DB4B90
+}
+
+.servico-titulo-seguranca{
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color:#DB4B90
+}
+.servico-titulo-doacao{
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #DB4B90;
+}
+.servicos-agenda-seguranca-doacao p{
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #303030;
+}
+.trabalhe-conosco{
+    background-color:#ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.trabalhe-conosco-texto{
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+}
+
+.texto-menor-trabalhe-conosco{
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #DB4B90;
+}
+.texto-pricipal-trabalhe-conosco{
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 40px;
+    color: #303030;
+}
+.link-e-icon-trabalhe-conosco{
+    display: flex;
+    align-items: center;
+}
+.link-trabalhe-conosco{
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #DB4B90;
+}
+.icon-texto-trabalhe-conosco{
+    width: 20px;
+    height: 15px;
+}
+.quem-somos{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 32px;
+}
+.footer{
+    background-color:#DB4B90;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 32px;
+}
+
+.logo-branca-footer{
+    margin-top: 15px;
+}
+.footer-texto{
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #303030;
+}
+.icon-footer-redes{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.grid-menu-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grid-menu-navbar .menu-item-login-cadastro{
+    
+}
+
+main .conteudo{
+
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+/*.button{
+    background-color: #DB4B90;
+    border-color: #DB4B90;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
+  
+  
+  
+  
+  
+  
+
+
