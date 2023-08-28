@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sessionImg {
+        width: 35.2%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        background-image: url(./imgs/Group\ 11.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+
+    .containerText {
+        margin-bottom: 17px;
+    }
+
+    .text {
+        color: rgba(245, 245, 245, 1);
+        margin: 0 51px;
+    }
+
+    .containerLogo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo {
+        margin-right: 12px;
+        margin-bottom: 27px;
+    }
+
+    .campoTitlulo {
+        margin: 41px 0 18px 81px;
+        font-size: 32px;
+        color: rgba(219, 75, 144, 1);
+    }
+
+    .sessionForm {
+        width: 64.8%;
+        height: 100%;
+        display: flex;
+        flex-direction: column
+    }
+
+    .camposJuntos {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .campoSozinho {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px 0 25px 0;
+    }
+
+
+    .form {
+        height: 74%;
+
+    }
+
+    .campoForm {
+        display: flex;
+        align-items: start;
+        justify-self: center;
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .campoForm label {
+        height: 42.6%;
+
+    }
+
+    .inputEmail {
+        width: 705px;
+    }
+
+    .inputOutros {
+        width: 270px
+    }
+
+    .campoForm input {
+        height: 57.4%;
+        background-color: rgba(229, 229, 229, 1);
+        border: none;
+        overflow: none;
+        border-radius: 10px;
+        border-bottom: 1px solid #ccc;
+        box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.3);
+        padding: 7px 30px 7px 30px;
+
+    }
+
+    .buttonForm {
+        border: none;
+        border-radius: 30px;
+        padding: 3px 75px;
+        background-color:
+            rgba(219, 75, 144, 1);
+        color:
+            rgba(245, 245, 245, 1);
+    }
+
+    .linkForm {
+        color: rgba(219, 75, 144, 1);
+        text-decoration: none;
+    }
+
+
+
+    .campoCadastre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+
+    .buttonSair {
+        border: none;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(219, 75, 144)
+    }
+
+
+    .campoSair {
+        margin-bottom: 51px;
+        margin-left: 44px;
+    }
+
+    .menssagemErro {
+        margin-top: 5px;
+        color: rgba(219, 75, 144, 1);
+        font-size: 16px;
+        font-weight: medium;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <main>
+        <section class="sessionImg">
+            <!--39%-->
+            <div class="containerText">
+                <p class="text">
+                    A vida está agitada, deixando seu cão solitário?
+                    Conecte-se a cuidadores amorosos agora mesmo!
+                </p>
+            </div><!--texto-->
+            <div calss="containerLogo">
+                <img src="./imgs/Logo Branca.png" alt="Logo da WoofJoy" class="logo">
+            </div><!--Logo-->
+        </section>
+
+        <section class="sessionForm"><!--61%-->
+            <div class="campoTitlulo">
+                <h1>Crie sua conta agora</h3>
+            </div>
+            <div class="form">
+                <div class="camposJuntos">
+                    <div class="campoForm">
+                        <label for="">Nome</label>
+                        <input class="inputOutros" type="text">
+                    </div>
+                    <div class="campoForm">
+                        <label for="">Sobrenome</label>
+                        <input class="inputOutros" type="text">
+                    </div>
+                </div>
+                <div class="camposJuntos">
+                    <div class="campoForm">
+                        <label for="">CPF</label>
+                        <input class="inputOutros" type="text" placeholder="000.000.000-00">
+                    </div>
+                    <div class="campoForm">
+                        <label for="">Data de nascimento</label>
+                        <input class="inputOutros" type="text" placeholder="00/00/0000">
+                    </div>
+                </div>
+                <div class="camposJuntos">
+                    <div class="campoForm">
+                        <label for="">CEP</label>
+                        <input class="inputOutros" type="text" placeholder="00000-000">
+                    </div>
+                    <div class="campoForm">
+                        <label for="">Número</label>
+                        <input class="inputOutros" type="text">
+                    </div>
+                </div>
+                <div class="campoSozinho">
+                    <div class="campoForm">
+                        <label for="">E-mail</label>
+                        <input class="inputEmail" type="text">
+                        <p class="menssagemErro"><img src="./imgs/Mask group (1).png" alt=""> Digite um email válido</p>
+                    </div>
+                </div>
+                <div class="camposJuntos">
+                    <div class="campoForm">
+                        <label for="">Senha</label>
+                        <input class="inputOutros" type="text">
+                        <p class="menssagemErro"><img src="./imgs/Mask group (1).png" alt=""> Digite uma senha válida
+                        </p>
+                    </div>
+                    <div class="campoForm">
+                        <label for="">Confimação de senha</label>
+                        <input class="inputOutros" type="text">
+                        <p class="menssagemErro"><img src="./imgs/Mask group (1).png" alt=""> Senhas Incompatíveis</p>
+                    </div>
+                </div>
+                <div class="campoCadastre">
+                    <button class="buttonForm">
+                        Criar Conta
+                    </button>
+                    <p>Já tem uma conta? <a class="linkForm" href="./login.html">Conecte-se</a></p>
+                </div>
+
+            </div>
+
+            <div class="campoSair">
+                <button class="buttonSair">
+                    <img src="./imgs/Mask group.png" alt="Ícone de curtir">
+                    <b>Voltar</b>
+                </button>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
+
+<script>
+
+</script>
