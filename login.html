@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Vazia</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/styleAll.css">
 </head>
@@ -22,24 +22,24 @@
 
 
             <label for="email">E-mail
-                <input type="text" id="email" placeholder="filipe.silva@exemplo.com">
+                <input type="text" id="email" placeholder="">
             </label>
 
             <label for="senha">Senha
-                <input type="password" id="senha" placeholder="******">
+                <input type="password" id="senha" placeholder="">
             </label>
 
             <button class="button_entrar" style="cursor: pointer;">Entrar</button>
 
             <span class="span_cadastrase">Ainda não tem uma conta?<a class="a_cadastrase" href="cadastro.html">
-                    Cadastre-se <a href=""></a> </span>
+                     <a href="./cadastro.html"><b>Cadastre-se</b></a> </span>
 
 
 
 
             <!-- UTILIZE ESSA TAG BUTTON COMO COMPONENTE DO BOTAO VOLTAR -->
             <div class="div_botao_voltar">
-                <button class="button_voltar">
+                <button class="button_voltar" onclick="window.location.href='./index.html'">
                     <img src="./imgs/Mask group.png" alt="Ícone de curtir">
                     <b>Voltar</b>
                 </button>
@@ -48,7 +48,9 @@
 
         </div>
         <div class="container2">
-
+            <div calss="containerLogo">
+                <img src="./imgs/logo-branca-footer.png" alt="Logo da WoofJoy" class="logo">
+            </div><!--Logo-->
 
 
         </div>

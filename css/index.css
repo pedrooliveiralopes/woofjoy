@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,10 +22,14 @@ body {
 /*-------------------------------------------NAVBAR-----------------------------------------*/
 
 header {
+    background-color: #ffffff;
+    top: 0;
     display: flex;
     justify-content: center;
+    position:fixed;
     width: 100%;
     font-size: 18px;
+    z-index: 5;
 }
 
 nav {
@@ -29,7 +39,7 @@ nav {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    padding: 5vh 0;
+    padding: 3vh 0;
     list-style: none;
 }
 
@@ -75,6 +85,7 @@ nav {
     background-color: #ffffff;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .btn-cadastrar {
@@ -85,6 +96,7 @@ nav {
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
 }
 
 /*-------------------------------------------INÍCIO-----------------------------------------*/
@@ -94,6 +106,7 @@ main {
 }
 
 .inicio {
+    padding-top: 12vh;
     width: 100%;
     display: flex;
     background-color: #ffffff;
@@ -156,6 +169,7 @@ main {
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
 }
 
 /*-------------------------------------------SERVIÇOS-----------------------------------------*/
@@ -189,10 +203,6 @@ main {
     flex-direction: column;
     justify-content: right;
     align-items: center;
-}
-
-.sercicos-img-principal {
-    height: 100px;
 }
 
 .servicos-texto h1 {
@@ -253,45 +263,24 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center
+    
 }
 
-.icon-agenda {
-    width: 31.304px;
-    height: 34.087px;
-}
-
-.icon-seguranca {
-    width: 31.304px;
-    height: 34.087px;
-}
-
+.icon-agenda,
+.icon-seguranca,
 .icon-doacao {
-    width: 31.304px;
-    height: 34.087px;
+    width: 30px;
+    height: 30px;
 }
 
-.servico-titulo-agenda {
+.servico-titulo-agenda,
+.servico-titulo-seguranca,
+.servico-titulo-doacao{
     margin-top: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 24px;
     color: #DB4B90
-}
-
-.servico-titulo-seguranca {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    color: #DB4B90
-}
-
-.servico-titulo-doacao {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    color: #DB4B90;
 }
 
 .servicos-agenda-seguranca-doacao p {
@@ -365,15 +354,30 @@ main {
 
 /*-------------------------------------------QUEM SOMOS-----------------------------------------*/
 
+.quem-somos-section{
+    margin: 0 0 5% 0;
+}
+
 .quem-somos {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.img-fundo-quem-somos{
+    width: 100%;
+}
+
+.img-conteudo-fundo-quem-somos{
+    width: 80%;
 }
 
 .container-quem-somos{
     width: 90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mural-img-dogs{
@@ -400,14 +404,10 @@ main {
     margin-top: 5px;
 }
 
-.titulo-quem-somos{
-    font-size: 48px;
-    font-weight: 800;
-}
-
 .missao-visao-valores{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-left: 5%;
     width: 70%;
 }
@@ -416,33 +416,37 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
-    z-index: 0;
 }
 
-.icon-missao-visao-valores{
-    display: flex;
-    justify-content: flex-start;
-    left: 55%;
+.container-conteudo-missao-visao-valores{
     position: absolute;
-    z-index: 2;
-}
-
-.card-missao, .card-visao, .card-valores{
     display: flex;
     justify-content: center;
-    position: absolute;
-    z-index: 1;
-    background-color: #ffffff;
+    align-items: center;
 }
+
+.titulo-quem-somos{
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/*-------------------------------------------FOOTER-----------------------------------------*/
 
 .footer {
     background-color: #DB4B90;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
 
     padding: 32px;
+}
+
+.footer-informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logo-branca-footer {
@@ -451,9 +455,9 @@ main {
 
 .footer-texto {
     margin-top: 10px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    color: #303030;
+    color: #ffffff;
 }
 
 .icon-footer-redes {

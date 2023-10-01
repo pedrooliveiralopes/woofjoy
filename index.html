@@ -14,10 +14,10 @@
     <nav>
       <img class="logo-img-navbar" src="./imgs/logo-preta.png" alt="logo preta da Woof Joy">
       <ul class="menu-navbar">
-        <li><a class="menu-item" href="#">Início</a></li>
-        <li><a class="menu-item" href="#">Serviços</a></li>
-        <li><a class="menu-item" href="#">Vire um prestador</a></li>
-        <li><a class="menu-item" href="#">Sobre Nós</a></li>
+        <li><a class="menu-item" href="index.html">Início</a></li>
+        <li><a class="menu-item" href="index.html#servicos">Serviços</a></li>
+        <li><a class="menu-item" href="index.html#trabalhe-conosco">Vire um Parceiro</a></li>
+        <li><a class="menu-item" href="index.html#quem-somos">Sobre Nós</a></li>
       </ul>
       <div class="menu-item-login-cadastro">
         <button class="btn-entrar" onclick="window.location.href='./login.html'">Entrar</button>
@@ -30,7 +30,7 @@
     <section class="inicio">
       <div class="banner">
         <div class="banner-texto-apresentacao">
-          <p class="rosa"><strong># DogWalker # DogSitter</strong></p>
+          <p class="rosa"><strong>#DogWalker &nbsp #DogSitter</strong></p>
           <h1 class="texto-preto">Seu cão feliz :) </h1>
           <h1 class="texto-rosa">em boas mãos</h1>
           <p class="texto-menor">
@@ -41,7 +41,8 @@
         <img class="img-inicio-pata" src="./imgs/img-inicio-pata.png" alt="imagem logo pata com pet">
       </div>
     </section>
-    <section class="servicos1">
+
+    <section class="servicos1" id="servicos">
       <div class="servicos-img-e-texto">
         <img class="img-servicos-inicial" src="./imgs/img-servicos.png" alt="imagem principal de servicos">
         <div class="servicos-texto">
@@ -51,6 +52,7 @@
         </div>
       </div>
     </section>
+
     <section class="servicos2">
       <div class="servicos-informacoes">
         <h2 class="texto-servicos-informacoes">
@@ -85,16 +87,16 @@
       </div>
     </section>
 
-    <section class="trabalhe-conosco">
+    <section class="trabalhe-conosco" id="trabalhe-conosco">
       <div class="container-trabalhe-conosco">
         <div class="fundo-parceiro">
-          <img src="./imgs/fundo-parceiro.png" alt="">
+          <img class="img-fundo-parceiro" src="./imgs/fundo-parceiro.png" alt="">
         </div>
       </div>
       <div class="container-conteudo-parceiro">
         <div class="trabalhe-conosco-texto">
           <p class="texto-menor-trabalhe-conosco">
-            No Woof Joy, você pode ser o cliente ou o prestador de serviço
+            Você pode ser o cliente ou um parceiro Woof Joy
           </p>
           <h3 class="texto-pricipal-trabalhe-conosco">
             Cadastre-se na nossa plataforma como um profissional de pet, encontre clientes e ganhe dinheiro fazendo o
@@ -103,59 +105,48 @@
           </h3>
           <div class="link-e-icon-trabalhe-conosco">
             <a class="link-trabalhe-conosco" href="./cadastro.html">Faça seu cadastro</a>
-            <a href="./cadastro.html" class="icon-link-faca-seu-cadastro"><img class="icon-texto-trabalhe-conosco" src="./imgs/icon-faca-seu-cadastro.png"
-              alt="icone faca seu cadastro"></a>
+            <a href="./cadastro.html" class="icon-link-faca-seu-cadastro"><img class="icon-texto-trabalhe-conosco"
+                src="./imgs/icon-faca-seu-cadastro.png" alt="icone faca seu cadastro"></a>
           </div>
         </div>
       </div>
     </section>
-    
-    <section class="quem-somos">
-      <div class="container-quem-somos">
-        <div class="mural-img-dogs">
-          <div class="column-imgs">
-            <div class="column-1">
-              <img class="img-dog" src="./imgs/img-dog-1.png" alt="" width="158px">
-              <img class="img-dog" src="./imgs/img-dog-3.png" alt="" width="158px">
+
+    <section class="quem-somos-section" id="quem-somos">
+      <div class="quem-somos">
+        <div class="container-quem-somos">
+          <div class="mural-img-dogs">
+            <div class="column-imgs">
+              <div class="column-1">
+                <img class="img-dog" src="./imgs/img-dog-1.png" alt="" width="158px">
+                <img class="img-dog" src="./imgs/img-dog-3.png" alt="" width="158px">
+              </div>
+              <div class="column-2">
+                <img class="img-dog" src="./imgs/img-dog-2.png" alt="" width="126px">
+                <img class="img-dog" src="./imgs/img-dog-4.png" alt="" width="126px">
+                <img class="img-dog" src="./imgs/img-dog-5.png" alt="" width="126px">
+              </div>
             </div>
-            <div class="column-2">
-              <img class="img-dog" src="./imgs/img-dog-2.png" alt="" width="126px">
-              <img class="img-dog" src="./imgs/img-dog-4.png" alt="" width="126px">
-              <img class="img-dog" src="./imgs/img-dog-5.png" alt="" width="126px" >
+            <div class="line-img">
+              <img class="img-dog" src="./imgs/img-dog-6.png" alt="" width="292px">
             </div>
           </div>
-          <div class="line-img">
-            <img class="img-dog" src="./imgs/img-dog-6.png" alt="" width="292px">
-          </div>
-          <div class="titulo-quem-somos">
-            <p>Somos</p>
-            <p>Woof Joy</p>
+          <div class="missao-visao-valores">
+            <div class="fundo-quem-somos">
+              <img class="img-fundo-quem-somos" src="./imgs/fundo-quem-somos.png" alt="">
+            </div>
+            <div class="container-conteudo-missao-visao-valores">
+              <img class="img-conteudo-fundo-quem-somos"  src="./imgs/texto-quem-somos-m-v-v.png" alt="">
+            </div>
           </div>
         </div>
-        <div class="missao-visao-valores">
-          <div class="fundo-quem-somos">
-            <img src="./imgs/fundo-quem-somos.png" alt="">
-          </div>
-          <div class="icon-missao-visao-valores">
-            <img src="./imgs/icon-missao-visao-valores.png" alt="">
-          </div>
-          <div class="card-missao">
-            <p>Missão</p>
-            <p>Conectar donos de cães a cuidadores confiáveis, proporcionando experiências positivas para os pets e tranquilidade para os proprietários.</p>
-          </div>
-          <div class="card-visao">
-            <p>Visão</p>
-            <p>Construir uma comunidade comprometida com o bem estar-animal, estabelecendo relações de confiança e enriquecimento entre donos de cães e cuidadores.</p>
-          </div>
-          <div class="card-valores">
-            <p>Valores</p>
-            <p>Excelência em tudo o que fazemos.</p>
-            <p>Confiança e Transparência em todas as interações, criando um ambiente seguro e ético para proprietários e cuidadores.</p>
-          </div>
-        </div>
+      </div>
+      <div class="titulo-quem-somos">
+        <p>Somos Woof Joy</p>
       </div>
     </section>
   </main>
+
   <footer class="footer">
     <div class="footer-informacoes">
       <img class="logo-branca-footer" src="./imgs/logo-branca-footer.png" alt="logo banca do Woof Joy">
