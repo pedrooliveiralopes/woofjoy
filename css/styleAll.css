@@ -64,8 +64,8 @@ input {
     outline: none;
 }
 
-input:hover {
+/* input:hover {
     background-color: #ffffff;
     box-shadow: #DB4B90 1px 4px 8px;
     transition: 0.2s;
-}
+} */
