@@ -10,30 +10,49 @@
 body{
     font-size: 100%;
     background-color:#FFDEDF;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .cabecalho-menu{
-    width: 55px;
+    width: 5%;
+    height: 100%;
     background-color: #DB4B90;
-    padding: 60px 0 40px 1%;
-
     position: fixed;
+    /* padding: 3% 0 3% 1%; */
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .2s;
+    transition: .1.5s;
+}
+
+.menu-navbar{
+    height: 100%;
 }
 
 .cabecalho-menu:hover{
-    width: 250px;
+    width: 20%;
+    height: 100%;
 }
+
+.cabecalho-menu:hover .txt-link{
+    display: flex;
+}
+
+.cabecalho-menu:hover .logo-img-navbar{
+    display: flex;
+}
+
 
 .btn-lateral-menu{
     display: flex;
-    width: 100%;
-    padding-left: 10px;
-    gap: 15px;
+    height: 8%;
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap: 10%;
 }
+
 .btn-lateral-menu i{
     display: flex;
     flex-direction: column-reverse;
@@ -42,6 +61,7 @@ body{
 
 .logo-img-navbar{
     align-items: center;
+    display: none;
 }
 
 .btn-lateral-menu > i{
@@ -55,61 +75,112 @@ ul{
 }
 
 .todos-menu-item{
+    height: 50%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 50px;
-    padding: 20px 10px;
+    gap: 40px;
+    /* padding: 20px 10px; */
  
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.menu-item:hover{
+    border-left: 4px solid white;
+} 
+
+li.menu-item a{
+    display: flex;
 }
 
 ul li.menu-item a{
     font-family: 'Nunito', sans-serif;
     color: #FFDEDF;
     text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 ul li.menu-item a .txt-link{
     margin-left: 30px;
 }
 
-.icon :hover{
+.menu-item:hover{
     color: #FFC3C5;
 }
 
-.txt-link:hover{
-    color: #FFC3C5;
+.txt-link{
+    display: none;
 }
+
+
+hr{
+    width: 85%;
+    border-top: 2px solid white;
+    background-color: #dddddd;
+}
+
+.menu-item-meu-perfil{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding-left: 20px;
+}
+
+.menu-item-meu-perfil:hover{
+    border-left: 4px solid white;
+} 
 
 .menu-item-meu-perfil a{
     display: flex;
     gap: 10px;
-    padding: 50% 10px;
     font-family: 'Nunito', sans-serif;
     color: #FFDEDF;
     text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
 }
-.menu-item-meu-perfil{
-    box-shadow: 0 2px 0 #ffffff; /*ver como coloca em cima*/
+/* .menu-item-meu-perfil{
+    box-shadow: 0 2px 0 #ffffff; /*ver como coloca em cima
+} */
+
+.menu-item-sair{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding-left: 20px;
 }
+
+.menu-item-sair:hover{
+    border-left: 4px solid white;
+} 
 
 .menu-item-sair a{
     display: flex;
-    padding: 5% 4%;
     font-family: 'Nunito', sans-serif;
     color: #FFDEDF;
     text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 5vh;
 
 }
 
 .menu-item-meu-perfil a .txt-link, .menu-item-sair a .txt-link{
     margin-left: 20px;
+}
+
+.space-menor{
+    height: 3%;
+}
+
+.space{
+    height: 5%;
 }
 
 
