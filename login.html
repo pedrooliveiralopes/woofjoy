@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/styleAll.css">
+</head>
+
+<body>
+    <main>
+        <div class="container1">
+
+            <span class="span_bem_vindo">
+                Bem-vindo(a) de volta!
+            </span>
+
+            <div id="mensagemErro" class="div_mensagem_erro"> Usuário ou senha incorretos! Por favor, tente novamente.
+            </div>
+
+
+            <label for="email">E-mail
+                <input type="text" id="email" placeholder="">
+            </label>
+
+            <label for="senha">Senha
+                <input type="password" id="senha" placeholder="">
+            </label>
+
+            <button class="button_entrar" style="cursor: pointer;">Entrar</button>
+
+            <span class="span_cadastrase">Ainda não tem uma conta?<a class="a_cadastrase" href="cadastro.html">
+                     <a href="./cadastro.html"><b>Cadastre-se</b></a> </span>
+
+
+
+
+            <!-- UTILIZE ESSA TAG BUTTON COMO COMPONENTE DO BOTAO VOLTAR -->
+            <div class="div_botao_voltar">
+                <button class="button_voltar" onclick="window.location.href='./index.html'">
+                    <img src="./imgs/Mask group.png" alt="Ícone de curtir">
+                    <b>Voltar</b>
+                </button>
+            </div>
+
+
+        </div>
+        <div class="container2">
+            <div calss="containerLogo">
+                <img src="./imgs/logo-branca-footer.png" alt="Logo da WoofJoy" class="logo">
+            </div><!--Logo-->
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>

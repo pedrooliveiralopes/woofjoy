@@ -1,0 +1,1762 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@media (max-width: 600px) {
+
+    /*HEADER*/
+    header {
+        width: 100%;
+        font-size: 16px;
+        position: static;
+    }
+
+    nav {
+        /*clase pai*/
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .logo-img-navbar {
+        width: 40%;
+    }
+
+    .menu-navbar {
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 5%;
+        margin: 5% 0;
+    }
+
+    .menu-item-login-cadastro {
+        width: 80%;
+        gap: 5%;
+        margin: 2% 0;
+    }
+
+    .btn-entrar {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .btn-cadastrar {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    /*INÍCIO*/
+
+    .inicio {
+        padding-top: 0;
+    }
+
+    .banner {
+        gap: 5%;
+    }
+
+    .banner-texto-apresentacao {
+        width: 50%;
+    }
+
+    .img-inicio-pata {
+        width: 50%;
+    }
+
+    .rosa {
+        font-size: 16px;
+    }
+
+    .texto-preto,
+    .texto-rosa {
+        font-size: 24px;
+    }
+
+    .texto-menor {
+        font-size: 16px;
+    }
+
+    .btn-confira {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    /*SERVIÇOS*/
+    .img-servicos-inicial {
+        display: none;
+    }
+
+    .servicos-texto {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .servicos-texto h1 {
+        font-weight: 800;
+        font-size: 24px;
+        margin-bottom: 2%;
+        color: #303030;
+    }
+
+    .servicos-texto p {
+        font-weight: 500;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .servico-texto-img-conteudo {
+        margin-top: 5%;
+        padding: 15px;
+    }
+
+    .texto-servicos-informacoes {
+        margin: 3%;
+        padding: 10px;
+        font-weight: 800;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .servicos-agenda-seguranca-doacao {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .agenda,
+    .seguranca,
+    .doacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0;
+    }
+
+    .icon-agenda,
+    .icon-seguranca,
+    .icon-doacao {
+        width: 20px;
+        height: 20px;
+        margin-right: 2%;
+    }
+
+    .servico-titulo-agenda,
+    .servico-titulo-seguranca,
+    .servico-titulo-doacao {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: #DB4B90
+    }
+
+    .servicos-agenda-seguranca-doacao p {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        color: #303030;
+    }
+
+    /*PARCEIRO*/
+    .trabalhe-conosco {
+        width: 100%;
+        padding: 4vh;
+    }
+
+    .container-conteudo-parceiro {
+        width: 47%;
+    }
+
+    .img-fundo-parceiro {
+        width: 100%;
+    }
+
+
+    .trabalhe-conosco-texto {
+        margin-left: 14%;
+    }
+
+    .texto-menor-trabalhe-conosco {
+        margin-top: 10%;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .texto-pricipal-trabalhe-conosco {
+        margin-top: 3%;
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+
+    .icon-texto-trabalhe-conosco {
+        width: 50%;
+    }
+
+    .link-trabalhe-conosco {
+        font-size: 12px;
+    }
+
+    /*SOBRE NÓS*/
+    .quem-somos-section {
+        margin: 5% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-conteudo-fundo-quem-somos {
+        width: 87%;
+    }
+
+    .container-quem-somos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .mural-img-dogs {
+        display: none;
+    }
+
+    .missao-visao-valores {
+        width: 100%;
+    }
+
+    .fundo-quem-somos {
+        width: 100%;
+    }
+
+    .titulo-quem-somos {
+        margin: 3% 10%;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    /*FOOTER*/
+
+    .logo-branca-footer {
+        width: 70%;
+    }
+
+    .footer-texto {
+        font-weight: 400;
+        font-size: 8px;
+    }
+
+    .icon-footer-redes {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 600px) {
+
+    /*HEADER*/
+    header {
+        width: 100%;
+        font-size: 16px;
+        position: static;
+    }
+
+    nav {
+        /*clase pai*/
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .logo-img-navbar {
+        width: 40%;
+    }
+
+    .menu-navbar {
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 5%;
+        margin: 5% 0;
+    }
+
+    .menu-item-login-cadastro {
+        width: 80%;
+        gap: 5%;
+        margin: 2% 0;
+    }
+
+    .btn-entrar {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .btn-cadastrar {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    /*INÍCIO*/
+
+    .inicio {
+        padding-top: 0;
+    }
+
+    .banner {
+        gap: 5%;
+    }
+
+    .banner-texto-apresentacao {
+        width: 50%;
+    }
+
+    .img-inicio-pata {
+        width: 50%;
+    }
+
+    .rosa {
+        font-size: 16px;
+    }
+
+    .texto-preto,
+    .texto-rosa {
+        font-size: 32px;
+    }
+
+    .texto-menor {
+        font-size: 16px;
+    }
+
+    .btn-confira {
+        width: 50%;
+        font-size: 16px;
+        margin-top: 3vh;
+    }
+
+    /*SERVIÇOS*/
+    .img-servicos-inicial {
+        display: none;
+    }
+
+    .servicos-texto {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .servicos-texto h1 {
+        font-weight: 800;
+        font-size: 24px;
+        margin-bottom: 2%;
+        color: #303030;
+    }
+
+    .servicos-texto p {
+        font-weight: 500;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .servico-texto-img-conteudo {
+        margin-top: 5%;
+        padding: 15px;
+    }
+
+    .texto-servicos-informacoes {
+        margin: 3%;
+        padding: 10px;
+        font-weight: 800;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .servicos-agenda-seguranca-doacao {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .agenda,
+    .seguranca,
+    .doacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0;
+    }
+
+    .icon-agenda,
+    .icon-seguranca,
+    .icon-doacao {
+        width: 20px;
+        height: 20px;
+        margin-right: 2%;
+    }
+
+    .servico-titulo-agenda,
+    .servico-titulo-seguranca,
+    .servico-titulo-doacao {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: #DB4B90
+    }
+
+    .servicos-agenda-seguranca-doacao p {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    /*PARCEIRO*/
+    .trabalhe-conosco {
+        width: 100%;
+        padding: 4vh;
+    }
+
+    .container-conteudo-parceiro {
+        width: 47%;
+    }
+
+    .img-fundo-parceiro {
+        width: 100%;
+    }
+
+
+    .trabalhe-conosco-texto {
+        margin-left: 14%;
+    }
+
+    .texto-menor-trabalhe-conosco {
+        margin-top: 10%;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .texto-pricipal-trabalhe-conosco {
+        margin-top: 3%;
+        text-align: justify;
+        font-size: 16px;
+        margin-bottom: 2%;
+    }
+
+    .icon-texto-trabalhe-conosco {
+        width: 50%;
+    }
+
+    .link-trabalhe-conosco {
+        font-size: 12px;
+    }
+
+    /*SOBRE NÓS*/
+    .quem-somos-section {
+        margin: 5% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-conteudo-fundo-quem-somos {
+        width: 87%;
+    }
+
+    .container-quem-somos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .mural-img-dogs {
+        display: none;
+    }
+
+    .missao-visao-valores {
+        width: 100%;
+    }
+
+    .fundo-quem-somos {
+        width: 100%;
+    }
+
+    .titulo-quem-somos {
+        margin: 3% 10%;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    /*FOOTER*/
+
+    .logo-branca-footer {
+        width: 70%;
+    }
+
+    .footer-texto {
+        font-weight: 400;
+        font-size: 8px;
+    }
+
+    .icon-footer-redes {
+        width: 70%;
+    }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+
+    header {
+        background-color: #ffffff;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        font-size: 14px;
+        z-index: 5;
+    }
+
+    nav {
+        /*clase pai*/
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        padding: 2vh 0;
+        list-style: none;
+    }
+
+    .logo-img-navbar {
+        width: 10%;
+        margin-right: 5%;
+    }
+
+    .menu-navbar {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0;
+        gap: 10%;
+        list-style: none;
+    }
+
+    .menu-navbar a {
+        text-decoration: none;
+        color: #303030;
+        font-weight: 500;
+    }
+
+    .menu-item:hover {
+        font-weight: 700;
+        border-bottom: 0.7102272727272727vh solid #DB4B90;
+        border-radius: 2px;
+    }
+
+    .menu-item-login-cadastro {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin-left: 5%;
+        gap: 5px;
+    }
+
+    .btn-entrar {
+        width: 40%;
+        border-radius: 30px;
+        border: 3px solid #DB4B90;
+        border-radius: 30px;
+        background-color: #ffffff;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .btn-cadastrar {
+        background-color: #DB4B90;
+        width: 60%;
+        border: none;
+        border-radius: 30px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    /*INÍCIO*/
+
+    main {
+        margin-top: 5vh;
+    }
+
+    .inicio {
+        padding-top: 8vh;
+        width: 100%;
+        display: flex;
+        background-color: #ffffff;
+        justify-content: center;
+
+    }
+
+    .banner {
+        width: 90%;
+        gap: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .banner-texto-apresentacao {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-inicio-pata {
+        width: 50%;
+    }
+
+    .rosa {
+        font-weight: 700;
+        font-size: 16px;
+        color: #DB4B90;
+    }
+
+    .texto-preto,
+    .texto-rosa {
+        font-weight: 800;
+        font-size: 32px;
+    }
+
+    .texto-preto {
+        color: #303030;
+    }
+
+    .texto-rosa {
+        color: #DB4B90;
+    }
+
+    .texto-menor {
+        font-weight: 400;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .btn-confira {
+        background-color: #DB4B90;
+        width: 40%;
+        padding: 1vh;
+        margin-top: 5vh;
+        border: none;
+        border-radius: 30px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /*SERVIÇOS*/
+    .servicos1 {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #ffffff;
+        align-items: center;
+
+    }
+
+    .servicos-img-e-texto {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        gap: 2%
+    }
+
+    .img-servicos-inicial {
+        width: 40%;
+        margin-left: 5%;
+        display: flex;
+    }
+
+    .servicos-texto {
+        display: flex;
+        width: 50%;
+        margin-right: 5%;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .servicos-texto h1 {
+        margin-top: 40px;
+        font-weight: 800;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .servicos-texto p {
+        font-weight: 500;
+        font-size: 12px;
+        color: #303030;
+    }
+
+    .servico-texto-img-conteudo {
+        height: 220px;
+        align-items: center;
+    }
+
+    .servicos2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        align-items: center;
+    }
+
+    .servicos-informacoes {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .texto-servicos-informacoes {
+        padding: 30px;
+        font-weight: 800;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .servicos-agenda-seguranca-doacao {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 8%;
+    }
+
+    .agenda,
+    .seguranca,
+    .doacao {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center
+    }
+
+    .icon-agenda,
+    .icon-seguranca,
+    .icon-doacao {
+        width: 30px;
+        height: 30px;
+    }
+
+    .servico-titulo-agenda,
+    .servico-titulo-seguranca,
+    .servico-titulo-doacao {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        color: #DB4B90
+    }
+
+    .servicos-agenda-seguranca-doacao p {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        text-align: justify;
+        color: #303030;
+    }
+
+    /*PARCEIRO*/
+    .trabalhe-conosco {
+        width: 100%;
+        padding: 4vh;
+        display: flex;
+    }
+
+    .container-conteudo-parceiro {
+        width: 45%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .container-trabalhe-conosco {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+    }
+
+    .trabalhe-conosco-texto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .texto-menor-trabalhe-conosco {
+        margin-top: 15%;
+        font-weight: 800;
+        font-size: 16px;
+        color: #DB4B90;
+    }
+
+    .texto-pricipal-trabalhe-conosco {
+        margin-top: 5%;
+        font-weight: 600;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .icon-texto-trabalhe-conosco {
+        width: 50%;
+    }
+
+    .link-trabalhe-conosco {
+        font-size: 16px;
+    }
+
+    /*SOBRE NÓS*/
+    .quem-somos-section {
+        margin: 5% 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-conteudo-fundo-quem-somos {
+        width: 87%;
+    }
+
+    .container-quem-somos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .mural-img-dogs {
+        display: none;
+    }
+
+    .missao-visao-valores {
+        width: 100%;
+    }
+
+    .fundo-quem-somos {
+        width: 100%;
+    }
+
+    .titulo-quem-somos {
+        margin: 3% 10%;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    /*FOOTER*/
+
+    .logo-branca-footer {
+        width: 70%;
+    }
+
+    .footer-texto {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .icon-footer-redes {
+        width: 70%;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px) {
+    header {
+        background-color: #ffffff;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        font-size: 16px;
+        z-index: 5;
+    }
+
+    nav {
+        /*clase pai*/
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        padding: 2vh 0;
+        list-style: none;
+    }
+
+    .logo-img-navbar {
+        width: 10%;
+        margin-right: 5%;
+    }
+
+    .menu-navbar {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0;
+        gap: 10%;
+        list-style: none;
+    }
+
+    .menu-navbar a {
+        text-decoration: none;
+        color: #303030;
+        font-weight: 500;
+    }
+
+    .menu-item:hover {
+        font-weight: 700;
+        border-bottom: 0.7102272727272727vh solid #DB4B90;
+        border-radius: 2px;
+    }
+
+    .menu-item-login-cadastro {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin-left: 5%;
+        gap: 10px;
+    }
+
+    .btn-entrar {
+        width: 40%;
+        border-radius: 30px;
+        border: 3px solid #DB4B90;
+        border-radius: 30px;
+        background-color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .btn-cadastrar {
+        background-color: #DB4B90;
+        width: 60%;
+        border: none;
+        border-radius: 30px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* INÍCIO */
+    main {
+        margin-top: 5vh;
+    }
+
+    .inicio {
+        padding-top: 8vh;
+        width: 100%;
+        display: flex;
+        background-color: #ffffff;
+        justify-content: center;
+
+    }
+
+    .banner {
+        width: 90%;
+        gap: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .banner-texto-apresentacao {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-inicio-pata {
+        width: 50%;
+    }
+
+    .rosa {
+        font-weight: 700;
+        font-size: 16px;
+        color: #DB4B90;
+    }
+
+    .texto-preto,
+    .texto-rosa {
+        font-weight: 800;
+        font-size: 48px;
+    }
+
+    .texto-preto {
+        color: #303030;
+    }
+
+    .texto-rosa {
+        color: #DB4B90;
+    }
+
+    .texto-menor {
+        font-weight: 400;
+        font-size: 24px;
+        color: #303030;
+    }
+
+    .btn-confira {
+        background-color: #DB4B90;
+        width: 40%;
+        padding: 1vh;
+        margin-top: 5vh;
+        border: none;
+        border-radius: 30px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /*SERVIÇOS*/
+    .servicos1 {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #ffffff;
+        align-items: center;
+
+    }
+
+    .servicos-img-e-texto {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        gap: 2%
+    }
+
+    .img-servicos-inicial {
+        width: 40%;
+        margin-left: 5%;
+        display: flex;
+    }
+
+    .servicos-texto {
+        display: flex;
+        width: 50%;
+        margin-right: 5%;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .servicos-texto h1 {
+        margin-top: 40px;
+        font-weight: 800;
+        font-size: 24px;
+        color: #303030;
+    }
+
+    .servicos-texto p {
+        font-weight: 500;
+        font-size: 16px;
+        color: #303030;
+    }
+
+    .servico-texto-img-conteudo {
+        height: 280px;
+        align-items: center;
+    }
+
+    .servicos2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        align-items: center;
+    }
+
+    .servicos-informacoes {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .texto-servicos-informacoes {
+        padding: 30px;
+        font-weight: 800;
+        font-size: 24px;
+        color: #303030;
+    }
+
+    .servicos-agenda-seguranca-doacao {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 8%;
+    }
+
+    .agenda,
+    .seguranca,
+    .doacao {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center
+    }
+
+    .icon-agenda,
+    .icon-seguranca,
+    .icon-doacao {
+        width: 30px;
+        height: 30px;
+    }
+
+    .servico-titulo-agenda,
+    .servico-titulo-seguranca,
+    .servico-titulo-doacao {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        color: #DB4B90
+    }
+
+    .servicos-agenda-seguranca-doacao p {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: justify;
+        color: #303030;
+    }
+
+    /*PARCEIRO*/
+    .trabalhe-conosco {
+        width: 100%;
+        padding: 4vh;
+        display: flex;
+    }
+
+    .container-conteudo-parceiro {
+        width: 45%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .container-trabalhe-conosco {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+    }
+
+    .trabalhe-conosco-texto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .texto-menor-trabalhe-conosco {
+        margin-top: 15%;
+        font-weight: 800;
+        font-size: 16px;
+        color: #DB4B90;
+    }
+
+    .texto-pricipal-trabalhe-conosco {
+        margin-top: 5%;
+        font-weight: 600;
+        font-size: 24px;
+        color: #303030;
+    }
+
+    .icon-texto-trabalhe-conosco {
+        width: 80%;
+    }
+
+    .link-trabalhe-conosco {
+        font-size: 24px;
+    }
+
+    /* QUEM SOMOS */
+    .quem-somos-section {
+        margin: 0 0 5% 0;
+    }
+
+    .quem-somos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-fundo-quem-somos {
+        width: 90%;
+    }
+
+    .img-conteudo-fundo-quem-somos {
+        width: 70%;
+    }
+
+    .container-quem-somos {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mural-img-dogs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 25%;
+    }
+
+    .column-imgs {
+        width: 40%;
+        display: flex;
+        gap: 3%;
+    }
+
+    .column-1,
+    .column-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .line-img {
+        margin-top: 5px;
+    }
+
+    .missao-visao-valores {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        width: 70%;
+    }
+
+    .fundo-quem-somos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .container-conteudo-missao-visao-valores {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-quem-somos {
+        margin-left: 5%;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: #DB4B90;
+        display: flex;
+        justify-content: center;
+
+        padding: 32px;
+    }
+
+    .footer-informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-branca-footer {
+        margin-top: 15px;
+    }
+
+    .footer-texto {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .icon-footer-redes {
+        margin-top: 15px;
+    }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1240px) {
+
+
+header {
+    background-color: #ffffff;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    width: 100%;
+    font-size: 18px;
+    z-index: 5;
+}
+
+nav {
+    /*clase pai*/
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 3vh 0;
+    list-style: none;
+}
+
+.logo-img-navbar {
+    width: 10%;
+    margin-right: 5%;
+}
+
+.menu-navbar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 5%;
+    gap: 10%;
+    list-style: none;
+}
+
+.menu-navbar a {
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    font-weight: 700;
+    border-bottom: 0.7102272727272727vh solid #DB4B90;
+    border-radius: 2px;
+}
+
+.menu-item-login-cadastro {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-left: 5%;
+    gap: 20px;
+}
+
+.btn-entrar {
+    width: 40%;
+    border-radius: 30px;
+    border: 3px solid #DB4B90;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-cadastrar {
+    background-color: #DB4B90;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*-------------------------------------------INÍCIO-----------------------------------------*/
+
+main {
+    margin-top: 5vh;
+}
+
+.inicio {
+    padding-top: 12vh;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+
+}
+
+.banner {
+    width: 90%;
+    gap: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-texto-apresentacao {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-inicio-pata {
+    width: 40%;
+}
+
+.rosa {
+    font-weight: 700;
+    font-size: 20px;
+    color: #DB4B90;
+}
+
+.texto-preto,
+.texto-rosa {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.texto-preto {
+    color: #303030;
+}
+
+.texto-rosa {
+    color: #DB4B90;
+}
+
+.texto-menor {
+    font-weight: 400;
+    font-size: 24px;
+    color: #303030;
+}
+
+.btn-confira {
+    background-color: #DB4B90;
+    width: 30%;
+    padding: 1vh;
+    margin-top: 5vh;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*-------------------------------------------SERVIÇOS-----------------------------------------*/
+
+.servicos1 {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+
+.servicos-img-e-texto {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+}
+
+.img-servicos-inicial {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.servicos-texto {
+    display: flex;
+    width: 50%;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.servicos-texto h1 {
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 32px;
+    color: #303030;
+}
+
+.servicos-texto p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #303030;
+}
+
+.servico-texto-img-conteudo {
+    height: 270px;
+    align-items: center;
+}
+
+.servicos2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.servicos-informacoes {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.texto-servicos-informacoes {
+    padding: 30px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #303030;
+}
+
+.servicos-agenda-seguranca-doacao {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+
+.agenda,
+.seguranca,
+.doacao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center
+    
+}
+
+.icon-agenda,
+.icon-seguranca,
+.icon-doacao {
+    width: 30px;
+    height: 30px;
+}
+
+.servico-titulo-agenda,
+.servico-titulo-seguranca,
+.servico-titulo-doacao{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #DB4B90
+}
+
+.servicos-agenda-seguranca-doacao p {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #303030;
+}
+
+/*-------------------------------------------PARCEIRO-----------------------------------------*/
+
+.trabalhe-conosco {
+    width: 100%;
+    padding: 10vh;
+    display: flex;
+}
+
+.container-conteudo-parceiro {
+    width: 45%;
+    position: absolute;
+    z-index: 1;
+}
+
+.container-trabalhe-conosco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.trabalhe-conosco-texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.texto-menor-trabalhe-conosco {
+    margin-top: 15%;
+    font-weight: 800;
+    font-size: 16px;
+    color: #DB4B90;
+}
+
+.texto-pricipal-trabalhe-conosco {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 32px;
+    color: #303030;
+}
+
+.link-e-icon-trabalhe-conosco {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.icon-link-faca-seu-cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.link-trabalhe-conosco {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    color: #DB4B90;
+}
+
+/*-------------------------------------------QUEM SOMOS-----------------------------------------*/
+
+.quem-somos-section{
+    margin: 0 0 5% 0;
+}
+
+.quem-somos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fundo-quem-somos{
+    width: 100%;
+}
+
+.img-conteudo-fundo-quem-somos{
+    width: 80%;
+}
+
+.container-quem-somos{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mural-img-dogs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.column-imgs{
+    width: 40%;
+    display: flex;
+    gap: 3%;
+}
+
+.column-1, .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.line-img{
+    margin-top: 5px;
+}
+
+.missao-visao-valores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    width: 70%;
+}
+
+.fundo-quem-somos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-conteudo-missao-visao-valores{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-quem-somos{
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/*-------------------------------------------FOOTER-----------------------------------------*/
+
+.footer {
+    background-color: #DB4B90;
+    display: flex;
+    justify-content: center;
+
+    padding: 32px;
+}
+
+.footer-informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-branca-footer {
+    margin-top: 15px;
+}
+
+.footer-texto {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.icon-footer-redes {
+    margin-top: 15px;
+}
+}
