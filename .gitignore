@@ -1,0 +1,10 @@
+# Arquivos temporários
+*.log
+*.tmp
+
+# Diretório de dependências (por exemplo, para Node.js)
+node_modules/
+
+# Arquivos de configuração local
+.env
+.env.local
